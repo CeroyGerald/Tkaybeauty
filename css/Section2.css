@@ -1,0 +1,38 @@
+.card img {
+  width: 330px;
+  border-radius: 10px 10px 0 0;
+ ;
+}
+
+.card {
+  width: 330px;
+  margin-top: 50vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.Pricecards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.card h3,
+.card p,
+.card a {
+    font-family: 'tt-chocolate', sans-serif;
+    color: rgb(59, 59, 59);
+    margin-left: 15px;
+}
+
+.card a {
+  padding-bottom: 10px;
+  
+
+
+}

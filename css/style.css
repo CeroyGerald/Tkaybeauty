@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ffffff;
+}
+
+
+@font-face {
+  font-family: 'TT Chocolate';
+  src: url('../fonts/TTChocolate-Regular.ttf') format('truetype');
+  src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.main {
+  width: 100%;
+  background: url(/images/bg.png);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+header:hover {
+  
+   background-color: rgb(255, 255, 255); /* new text color on hover */
+}
+
+.lefticons{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo-wrapper {
+  margin-left: 100px;
+}
+
+.righticons{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.righticons img {
+  width: 24px;     /* Adjust size as needed */
+  height: 24px;
+  margin-right: 40px; /* Optional spacing between icons */
+  cursor: pointer; /* Change cursor on hover */
+  gap: 50px;
+}
+
+.righticons img:hover {
+  /* Change color on hover using the filter property. */
+  filter: invert(15%) sepia(87%) saturate(6011%) hue-rotate(314deg) brightness(97%) contrast(97%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.lefticons img {
+  width: 40px;     /* Adjust size as needed */
+  height: 40px;
+  margin: 0 5px;   /* Optional spacing between icons */
+  cursor: pointer; /* Change cursor on hover */
+  
+}
+
+/* .lefticons img:hover{
+  color:#e90055;
+}
+
+.righticons img:hover{
+  color:#e90055;
+} */
+
+.navbar{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a:hover{
+  color:#e90055;
+}
+
+.navbar a.active{
+  color: #e90055;
+}
+
+
+
+
+
+
+ul li {
+
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+  font-family: poppins;
+
+  /* margin: 0 20px;
+  
+  position: relative; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(60, 58, 58);
+  font-family: quicksand;
+  font-size: 18px;
+  font-weight: regular;
+  margin-top: -3%;
+  transition: .4s ease;
+}
+
+ul li a:hover {
+  color: lightpink;
+}
+
+.info {
+  margin-left: 7%;
+
+}
+
+.info h1 {
+  font-size: 20px;
+  color: rgb(179, 132, 143);
+  font-family: 'BebasNeue-Regular', sans-serif;
+  margin-top: 10%;
+}
+
+
+.info h2 {
+  font-size: 25px;
+  color: rgb(179, 132, 143);
+  font-family: 'BebasNeue-Regular', sans-serif;
+  
+}
+.info a {
+  text-decoration: none;
+  background:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: regular;
+  margin-top: 26px 0;
+  transition: .4s ease;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 18px;
+}
+
+.info a:hover {
+  background: #393939;
+   color: rgb(255, 255, 255); /* new text color on hover */
+}
+
+
+
+footer {
+  margin-top: 60vh;
+ background-color:  lightpink;
+  height: 5vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
